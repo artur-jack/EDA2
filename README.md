@@ -12,4 +12,4 @@ São árvores binárias de busca que seguem as seguintes regras:
 
     4 - Em cada nó, o caminho para qualquer uma de suas folhas possui a mesma quantidade de nós pretos.
 
-<img src="/assets/arvoreRubro.jpeg" width="100"/>
+<img src="/assets/arvoreRubro.jpeg" width="220" text-align="center" />
