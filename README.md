@@ -95,6 +95,19 @@ iguais ao seu
 - Quanto mais próximo à raiz, maior a
 prioridade
 
+### Em vetor
+
+- Raiz é o índice 0
+- Pai de v[i] = v[(i-1)/2], para i>0.
+- Filho esquerdo = v[i*2+1] <= n 
+- Filho direito = v[i*2+2] <= n 
+
+obs: n = número de nós da heap
+
+<p align="center">
+    <img width="400" src="/assets/heap.jpeg"> 
+</p>
+
 ### Operações
 Chave inserida
 - Inserção nas folhas da heap
