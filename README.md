@@ -95,33 +95,12 @@ iguais ao seu
 - Quanto mais próximo à raiz, maior a
 prioridade
 
-### Implementações da árvore:
-
-Com listas encadeadas:
-- Necessário 3 ponteiros: para os filhos e pai
-
-Com vetor:
-- Representação sequencial da árvore
-- Níveis da árvore acessada pelos seus índices
-- Raiz: posição 1
-- Filhos: 2 e 3
-- Netos: 4, 5, 6 e 7
-- E assim por diante.
-- São estruturas mais rígidas, limitadas
-- Porém, para heaps, há flexibilidade suficente
-para a implementação das operações em tempo
-logarítmico
-- Remover o valor máximo (ou mínimo)
-- Inserir
-- Vantagem: acesso direto aos nós sem necessidade
-de atualização dos apontadores
-git 
 ### Operações
-Prioridade aumentada ou chave inserida
+Chave inserida
 - Inserção nas folhas da heap
 - Restauração: subindo na heap
 
-Prioridade diminuída ou chave removida
+Chave removida
 - Raiz da heap é substituída por uma folha
 - Restauração: descendo na heap
 
