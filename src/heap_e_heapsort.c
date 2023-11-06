@@ -57,3 +57,34 @@ void desce_na_heap(FP *fp ,int i){
         }  
     }
 }
+
+void heapsort(int *v, int n){
+    FP *fp = cria_heap(n);
+    for (int i = 0; i < n; i++)
+    {
+        insere(fp, v[i]);
+    }
+    for (int i = n-1; i > 0; i--)
+    {
+        v[i] = remove(fp);
+    }
+}
+
+//Vetor em um heap
+
+//Professor passou o código a baixo para isso, mas com argumentos a mais nas funçõe
+//Desce na heap e remove.
+/*
+void heapsortV(int *v, int n){
+
+    for (int i = n/2; i > 0; i--)
+    {
+        desce_na_heap(v, n, i);
+    }
+    while (n > 0)
+    {
+        remove(v, n);
+        n--;
+    }
+}
+*/
