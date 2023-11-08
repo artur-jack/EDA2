@@ -21,7 +21,7 @@ no *rotacao_esquerda(no *raiz){
 
 no *rotacao_direita(no *raiz){
 
-    no* a = raiz->dir;
+    no* a = raiz->esq;
     raiz->esq = a->dir;
     a->dir = raiz;
     a->cor = raiz->cor;
